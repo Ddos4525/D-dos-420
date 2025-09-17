@@ -8,7 +8,7 @@ from telegram.constants import ChatAction
 from telegram.ext import Application, CommandHandler, ContextTypes
 from github import Github, InputGitTreeElement, Auth
 
-TELEGRAM_TOKEN = '7607442646'
+TELEGRAM_TOKEN = '6801864123'
 
 ADMIN_IDS = {jo}
 DATA_FILE = 'soul.json'
@@ -286,7 +286,7 @@ async def schedule_delete_and_notify(chat_id, github_token, repo_name, sec, ip, 
         pass
 
 def main():
-    app = Application.builder().token(TELEGRAM_TOKEN).build()
+    app = Application.builder().token(7402180351:AAE85tUBPdLf4y7bn_sGry9syuHikBWFgdo).build()
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("approve", approve))
     app.add_handler(CommandHandler("credit", add_credit))
